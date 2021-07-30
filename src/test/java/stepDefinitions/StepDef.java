@@ -116,9 +116,6 @@ public class StepDef {
         JavascriptExecutor js = (JavascriptExecutor) driver;
         //This will scroll down the page until the desired element becomes visible
         js.executeScript("arguments[0].scrollIntoView();", element);
-//    boolean status = driver.findElement(By.className("newsletter-signup__title h5")).isDisplayed();
-//    Assert.assertEquals(true,status);
-
     }
 
     @And("I enter the {string} in the newsletter field")
